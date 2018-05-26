@@ -1,0 +1,27 @@
+{
+  "name": "phillyDogSpot",
+  "version": "1.0.0",
+  "description": "A full-stack website for a fabulous Dog Grooming service.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmactavish13/phillyDogSpot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmactavish13/phillyDogSpot/issues"
+  },
+  "homepage": "https://github.com/pmactavish13/phillyDogSpot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "npm": "^6.1.0"
+  }
+}
