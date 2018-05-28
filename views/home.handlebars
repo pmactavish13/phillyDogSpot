@@ -1,34 +1,164 @@
-<div id="top">
+<div id="container">
 
     <!-- Navigation -->
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <a class="navbar-brand" href="#top">phillydogspot</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" id="about" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="contact" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="services" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="pricing" href="#pricing">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="book" href="#book">Book</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+
+        <div id="logo">
+            <img src="/assets/images/th.jpeg" style="max-height: 45px; text-align:center; margin-bottom: -3px" class="philly skyline">
+            <h5 style="margin:0; font-size: 16px;color:whitesmoke">
+                <i class="fas fa-paw fa-xs" style="color:rgb(173, 106, 222)"> </i> phillydogspot.com</h5>
+        </div>
+        
+        {{!--
+        <a class="navbar-brand" href="#top">phillydogspot</a> --}}
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#top">Home
+                        <span> &#160 &#8226; </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About
+                        <span> &#160 &#8226; </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#policies">Policies
+                        <span> &#160 &#8226;</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Location &#8226 Contact
+                        <span> &#160 &#8226;</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    {{!-- href="#grooming" --}}
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Grooming</a>
+                    <div class="dropdown-menu dropdown-menu-right" id="grooming" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#spaPackages" style="color: rgb(79, 17, 123)">Spa Packages</a>
+                        <a class="dropdown-item" href="#price" style="color: rgb(79, 17, 123)">Price by Breed</a>
+                        <a class="dropdown-item" href="#color" style="color: rgb(79, 17, 123)">Coat Coloring</a>
+                        <a class="dropdown-item" href="#perscription" style="color: rgb(79, 17, 123)">Perscription Bathing</a>
+                        <a class="dropdown-item" href="#cats" style="color: rgb(79, 17, 123)">Cats</a>
+                        <hr style="color: rgb(91, 27, 136); height:2px">
+                        <a class="dropdown-item" href="#groomingFacts" style="color: rgb(79, 17, 123)">Grooming Facts</a>
+                    </div>
+                </li>
+                {{!--
+                <li class="nav-item">
+                    <a class="nav-link" href="#groomingPackages">Grooming Packages
+                        <span> &#160 &#8226;</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#color">Color
+                        <span> &#160 &#8226;</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#perscription">Perscription Bathing
+                        <span> &#160 &#8226;</span>
+                    </a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="#price"><span>&#8226; &#160  </span>Pricing<span> &#160 &#8226;</span>
+                    </a>
+                </li> --}}
+                <li class="nav-item">
+                    <a class="nav-link" href="#book">Book</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10 banner">
+            <h1>Welcome to phillydogspot</h1>
+            <h3>Drop Off Bathing Service
+                <span> &#8226;</span>
+                All Natural Products
+                <span> &#8226;</span>
+                Kennel Free Dog Grooming</h3>
+            <h2>Dog-Owned Stylist and Staff</h2>
+
+            {{> paw_line_rainbow }}
+
+            <a>
+                <img src="assets/images/dottie.jpeg" class="auth-image" alt="Dottie" style="max-height:225px; max-width:150px; border:ridge 4px yellow">
+                <img src="assets/images/dogHandkerchief.jpeg" class="auth-image" alt="Handkercheif" style="max-height:200px; max-width:200px; border:ridge 4px rgb(7, 100, 215)">
+                <img src="assets/images/familyAtPride.jpeg" class="auth-image" alt="Family at Pride" style="max-height:250x; max-width:300px; border:ridge 4px rgb(203, 21, 82)">
+
+                <img src="assets/images/dogOnChair.jpeg" class="auth-image" alt="At the Table" style="max-height:200px; max-width:200px; border:ridge 4px rgb(8, 235, 61)">
+                <img src="assets/images/maxBrt.jpeg" class="auth-image" alt="Max" style="max-height:225px; max-width:150px; border:ridge 4px rgb(255, 153, 0)">
+            </a>
+
+            <p class="lead">
+                <a class="btn btn-lg" href="#" role="button">Book Online</a>
+            </p>
+        </div>
+    </div>
+
+    {{!-- ******************** Spa Packages **************** --}}
+    <div id="spaPackages">
+        {{> spa_packages }}
+    </div>
+
+
+    {{!-- ********************** Color ********************** --}}
+    <div id="color">
+        {{> color }}
+    </div>
+
+    {{!-- ******************* Perscription ******************* --}}
+    <div id="perscription">
+        {{> perscription }}
+    </div>
+
+    {{!-- *********************** Cats *********************** --}}
+    <div id="cats">
+        {{> cats }}
+    </div>
+
+    {{!-- ****************** Grooming Facts ****************** --}}
+    <div id="groomingFacts">
+        {{> grooming_facts }}
+    </div>
+
+    {{!-- ******************** About Us *********************** --}}
+    <div id="about">
+        {{> about }}
+    </div>
+
+    {{!-- *********************** Contact ********************* --}}
+
+    <div id="contact">
+        {{> contact }}
+    </div>
+
+    {{!-- *********************** Price *********************** --}}
+    <div id="price">
+        {{> price }}
+    </div>
+
+    {{!-- ********************** Policies ********************* --}}
+    <div id="policies">
+        {{> policies }}
+    </div>
+
+    {{!-- ********************** Book ********************* --}}
+    <div id="book">
+        {{> book }}
     </div>
 
 </div>

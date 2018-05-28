@@ -8,9 +8,4 @@ module.exports = function (app) {
     app.get("/", function (req, res) {
         res.render(path.join(__dirname, "../views/home.handlebars"));
     });
-    
-    //  "/new_member" route loads new_member.handlebars
-    app.get("/services", function (req, res) {
-        res.render(path.join(__dirname, "../views/services.handlebars"));
-    });
 }; 

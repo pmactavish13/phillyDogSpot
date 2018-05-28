@@ -1,0 +1,111 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url("../images/rainbowPaw2.jpg");
+    background-size: cover auto;
+    font-family: 'Song Myung', serif;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(79, 17, 123);
+    height: 79px;
+}
+
+#logo {
+    border: solid 2px white;
+    border-radius:7px; 
+    margin-top: 2px;
+    margin-left: 6px;
+}
+
+/* .navbar-brand {
+    color: rgb(223, 180, 250);
+    font-size: 27px;
+} */
+
+.banner {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    background-color:  rgb(79, 17, 123);
+    color: rgb(249, 235, 254);
+    outline: solid 6px rgb(79, 17, 123);
+    border: solid 8px  rgb(249, 235, 254);
+}
+
+.about, .perscription, .spaPackages, .color, .policies, .contact, .groomingFacts, .cats, .price {
+    margin-bottom: 20px;
+    color:  rgb(79, 17, 123);
+    background-color: rgb(249, 235, 254);
+    border: solid 8px rgb(79, 17, 123);
+}
+
+.book {
+    margin-bottom: 20px;
+    color:rgb(78, 110, 145);;
+    background-color: rgb(79, 17, 123);
+    border: solid 8px rgb(78, 112, 152);
+}
+
+h1 {
+    font-size:55px;
+    margin-top:18px;
+    margin-bottom:8px;
+    text-align:center;
+    padding: 10px;
+}
+h2 {
+    font-size:24px;
+}
+h3 {
+    font-size:20px;
+}
+
+.btn {
+background-color:rgb(7, 100, 215);
+color:rgb(249, 235, 254);
+margin-top: 15px;
+}
+.btn:hover {
+    color: rgb(8, 235, 61);
+}
+
+.nav-link:hover {
+    color: rgb(8, 235, 61) !important;
+}
+
+.pawLine {
+    padding-bottom:10px;
+}
+
+.lead {
+    text-align: center;
+}
+
+#grooming {
+    background-color:rgb(249, 235, 254);
+    color:  rgb(91, 27, 136)
+}
+
+table {
+    font-size: 12px;
+}
+table, tr, td, th {
+    border:1px solid rgb(255, 201, 255)
+}
+
+thead {
+    background-color: rgb(91, 27, 136);
+    color:rgb(249, 235, 254)
+}
+
+
+
+

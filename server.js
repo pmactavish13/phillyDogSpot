@@ -1,8 +1,9 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var exphbs = require("express-handlebars");
-
+var express_handlebars_sections = require('express-handlebars-sections');
 var app = express();
+
 var PORT = process.env.PORT || 5000;
 
 // handlebars rout to static files - css, img
