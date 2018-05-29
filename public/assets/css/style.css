@@ -102,7 +102,7 @@ margin-top: 15px;
 table {
     font-size: 12px;
 }
-table, tr, td, th {
+ tr, td, th {
     border:1px solid rgb(255, 201, 255)
 }
 
