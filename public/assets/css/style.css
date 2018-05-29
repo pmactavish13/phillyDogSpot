@@ -36,10 +36,6 @@ nav {
     nav select { display: inline-block; }
   }
 
-/* .nav-link {
-    display: none;
-  } */
-
 .banner {
     margin-top: 100px;
     margin-bottom: 30px;
@@ -114,7 +110,3 @@ thead {
     background-color: rgb(91, 27, 136);
     color:rgb(249, 235, 254)
 }
-
-
-
-
