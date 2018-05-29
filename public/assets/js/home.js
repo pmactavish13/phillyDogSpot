@@ -9,26 +9,13 @@ $(document).ready(function () {
             }, 500);
         }
     });
-    // Create the dropdown base
-    //$("<select />").appendTo("nav");
 
-    // Create default option "Go to..."
-    // $("<option />", {
-    //     // "selected": "selected",
-    //     // "value": "",
-    //     // "text": "Go to..."
-    // }).appendTo("nav select");
+    (function ($) {
+        "use strict"; // Start of use strict
+        // Closes responsive menu when a scroll trigger link is clicked
+        $('.js-scroll-trigger').click(function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+    })(jQuery); // End of use strict
 
-    // Populate dropdown with menu items
-    // $("nav a").each(function () {
-    //     var el = $(this);
-    //     $("<option />", {
-    //         "value": el.attr("href"),
-    //         "text": el.text()
-    //     }).appendTo("nav select");
-    // });
-
-    // $("nav select").change(function() {
-    //     window.location = $(this).find("option:selected").val();
-    //   });
 });

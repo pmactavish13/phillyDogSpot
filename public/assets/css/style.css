@@ -26,10 +26,11 @@ nav {
     margin-left: 6px;
 }
 
-/* .navbar-brand {
-    color: rgb(223, 180, 250);
-    font-size: 27px;
-} */
+.navbar-dark .navbar-nav .nav-link {
+    background-color:rgb(79, 17, 123);
+    color: rgb(249, 235, 254);
+} 
+
 @media (max-width: 860px) {
     nav ul     { display: none; }
     nav select { display: inline-block; }
