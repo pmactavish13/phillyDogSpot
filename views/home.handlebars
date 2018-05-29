@@ -1,7 +1,7 @@
 <div id="container-fluid">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-        
+
         <div id="logo">
             <img src="/assets/images/th.jpeg" style="max-height: 45px; text-align:center; margin-bottom: -3px" class="philly skyline">
             <h5 style="margin:0; font-size: 16px;color:whitesmoke">
@@ -17,25 +17,29 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link js-scroll-trigger" href="#top" >Home<span> &#160 &#8226; </span> 
+                    <a class="nav-link js-scroll-trigger" href="#top">Home
+                        <span> &#160 &#8226; </span>
                     </a>
                 </li>
-                
+
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">About<span> &#160 &#8226; </span>  
+                    <a class="nav-link js-scroll-trigger" href="#about">About
+                        <span> &#160 &#8226; </span>
                     </a>
                 </li>
-                
+
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#policies">Policies<span> &#160 &#8226;</span> 
+                    <a class="nav-link js-scroll-trigger" href="#policies">Policies
+                        <span> &#160 &#8226;</span>
                     </a>
                 </li>
-                
+
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Location &#8226 Contact<span> &#160 &#8226;</span>   
+                    <a class="nav-link js-scroll-trigger" href="#contact">Location &#8226 Contact
+                        <span> &#160 &#8226;</span>
                     </a>
                 </li>
-                
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Grooming</a>
@@ -53,16 +57,6 @@
                     <a class="nav-link js-scroll-trigger" href="#book">Book</a>
                 </li>
             </ul>
-
-            {{!-- <select> 
-                <option value="" selected="selected">Select</option> 
-    
-                <option value="#top">Home</option>
-                <option value="#about">About</option>
-                <option value="#policies">Policies</option>
-                <option value="#contact">Locate >Home &#8226 Contact</option>
-                <option value="#book">Book</option>
-            </select> --}}
         </div>
     </nav>
 </div>
@@ -101,6 +95,10 @@
         {{> spa_packages }}
     </div>
 
+    {{!-- ********************** Book ********************* --}}
+    <div id="book">
+        {{> book }}
+    </div>
 
     {{!-- ********************** Color ********************** --}}
     <div id="color">
@@ -133,19 +131,14 @@
         {{> contact }}
     </div>
 
-    {{!-- *********************** Price *********************** --}}
-    <div id="price">
-        {{> price }}
-    </div>
-
     {{!-- ********************** Policies ********************* --}}
     <div id="policies">
         {{> policies }}
     </div>
-
-    {{!-- ********************** Book ********************* --}}
-    <div id="book">
-        {{> book }}
+    
+    {{!-- *********************** Price *********************** --}}
+    <div id="price">
+        {{> price }}
     </div>
 
 </div>
