@@ -8,7 +8,7 @@
                 <i class="fas fa-paw fa-xs" style="color:rgb(173, 106, 222)"> </i> phillydogspot.com</h5>
         </div>
 
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fa fa-bars"></i>
@@ -18,53 +18,53 @@
             <ul class="navbar-nav text-uppercase ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link js-scroll-trigger" href="#top">Home
-                        <span> &#160 &#8226; </span>
+                        <span> &#160 &#160; </span>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#about">About
-                        <span> &#160 &#8226; </span>
+                        <span> &#160 &#160 </span>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#policies">Policies
-                        <span> &#160 &#8226;</span>
+                        <span> &#160 &#160</span>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact">Location &#8226 Contact
-                        <span> &#160 &#8226;</span>
+                        <span> &#160</span>
                     </a>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer">
                         Grooming</a>
-                    <div class="dropdown-menu dropdown-menu-right" id="grooming" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item js-scroll-trigger" href="#spaPackages" style="color: rgb(79, 17, 123)">Spa Packages</a>
-                        <a class="dropdown-item js-scroll-trigger" href="#price" style="color: rgb(79, 17, 123)">Price by Breed</a>
-                        <a class="dropdown-item js-scroll-trigger" href="#color" style="color: rgb(79, 17, 123)">Coat Coloring</a>
-                        <a class="dropdown-item js-scroll-trigger" href="#perscription" style="color: rgb(79, 17, 123)">Perscription Bathing</a>
-                        <a class="dropdown-item js-scroll-trigger" href="#cats" style="color: rgb(79, 17, 123)">Cats</a>
-                        <hr style="color: rgb(91, 27, 136); height:2px">
-                        <a class="dropdown-item js-scroll-trigger" href="#groomingFacts" style="color: rgb(79, 17, 123)">Grooming Facts</a>
+                    <div class="dropdown-menu dropdown-menu-right groom" id="grooming" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item js-scroll-trigger groom" href="#spaPackages" >Spa Packages</a>
+                        <a class="dropdown-item js-scroll-trigger groom" href="#price">Price by Breed</a>
+                        <a class="dropdown-item js-scroll-trigger groom" href="#color">Coat Coloring</a>
+                        <a class="dropdown-item js-scroll-trigger groom" href="#perscription">Perscription Bathing</a>
+                        <a class="dropdown-item js-scroll-trigger groom" href="#cats" >Cats</a>
+                        <hr style="background-color:rgb(249, 235, 254);">
+                        <a class="dropdown-item js-scroll-trigger groom" href="#groomingFacts">Grooming Facts</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#book">Book</a>
+                    <a class="nav-link js-scroll-trigger" target="_blank" href="https://instant-scheduling.com/sch.php?kn=162145">&#160; Book</a>
                 </li>
             </ul>
         </div>
     </nav>
 </div>
 
-<div>
+<div class="container-fluid">
     <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-10 banner">
+        {{!-- <div class="col-md-1"></div> --}}
+        <div class="col-md-12 banner">
             <h1>Welcome to phillydogspot</h1>
             <h3>Drop Off Bathing Service
                 <span> &#8226;</span>
@@ -76,16 +76,16 @@
             {{> paw_line_rainbow }}
 
             <a>
-                <img src="assets/images/dottie.jpeg" class="auth-image" alt="Dottie" style="max-height:225px; max-width:150px; border:ridge 4px yellow">
-                <img src="assets/images/dogHandkerchief.jpeg" class="auth-image" alt="Handkercheif" style="max-height:200px; max-width:200px; border:ridge 4px rgb(7, 100, 215)">
-                <img src="assets/images/familyAtPride.jpeg" class="auth-image" alt="Family at Pride" style="max-height:250x; max-width:300px; border:ridge 4px rgb(203, 21, 82)">
+                <img src="assets/images/dottie.jpeg" class="dog-image" alt="Dottie" style="max-height:225px; max-width:150px; border:ridge 4px yellow; margin-top:10px; margin-bottom:10px">
+                <img src="assets/images/dogHandkerchief.jpeg" class="dog-image" alt="Handkercheif" style="max-height:200px; max-width:200px; border:ridge 4px rgb(7, 100, 215);margin-top:10px; margin-bottom:10px">
+                <img src="assets/images/familyAtPride.jpeg" class="dog-image" alt="Family at Pride" style="max-height:250x; max-width:300px; border:ridge 4px rgb(203, 21, 82);margin-top:10px; margin-bottom:10px">
 
-                <img src="assets/images/dogOnChair.jpeg" class="auth-image" alt="At the Table" style="max-height:200px; max-width:200px; border:ridge 4px rgb(8, 235, 61)">
-                <img src="assets/images/maxBrt.jpeg" class="auth-image" alt="Max" style="max-height:225px; max-width:150px; border:ridge 4px rgb(255, 153, 0)">
+                <img src="assets/images/dogOnChair.jpeg" class="dog-image" alt="At the Table" style="max-height:200px; max-width:200px; border:ridge 4px rgb(8, 235, 61);margin-top:10px; margin-bottom:10px">
+                <img src="assets/images/maxBrt.jpeg" class="dog-image" alt="Max" style="max-height:225px; max-width:150px; border:ridge 4px rgb(255, 153, 0);margin-top:10px; margin-bottom:10px">
             </a>
 
             <p class="lead">
-                <a class="btn btn-lg" href="#" role="button">Book Online</a>
+                <a class="btn btn-lg" target="_blank" href="https://instant-scheduling.com/sch.php?kn=162145" role="button">Book Online</a>
             </p>
         </div>
     </div>
@@ -96,9 +96,9 @@
     </div>
 
     {{!-- ********************** Book ********************* --}}
-    <div id="book">
+    {{!-- <div id="book">
         {{> book }}
-    </div>
+    </div> --}}
 
     {{!-- ********************** Color ********************** --}}
     <div id="color">
